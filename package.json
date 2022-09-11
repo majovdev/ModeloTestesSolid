@@ -19,5 +19,8 @@
   "homepage": "https://github.com/majovdev/ModeloTestesSolid#readme",
   "devDependencies": {
     "vitest": "^0.23.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }

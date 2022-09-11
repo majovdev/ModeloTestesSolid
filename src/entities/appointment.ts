@@ -1,7 +1,8 @@
-interface AppointmentProps {
+import {Moment} from "moment"
+export interface AppointmentProps {
     customer: string
-    startsAt: Date
-    endsAt: Date
+    startsAt: Moment | Date
+    endsAt: Moment | Date
 
 }
 export class Appointment {
@@ -11,10 +12,10 @@ export class Appointment {
         return this.props.customer
     }
     get startsAt() {
-        return this.props.customer
+        return this.props.startsAt
     }
     get endsAt() {
-        return this.props.customer
+        return this.props.endsAt
     }
 
     constructor(props: AppointmentProps) {
