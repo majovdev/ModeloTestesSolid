@@ -1,0 +1,23 @@
+{
+  "name": "modelotestessolid",
+  "version": "1.0.0",
+  "description": "back-end Node com TESTES! (+ SOLID)",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majovdev/ModeloTestesSolid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majovdev/ModeloTestesSolid/issues"
+  },
+  "homepage": "https://github.com/majovdev/ModeloTestesSolid#readme",
+  "devDependencies": {
+    "vitest": "^0.23.2"
+  }
+}
